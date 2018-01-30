@@ -162,7 +162,7 @@ particlesJS('particles-js',
 
 );
 
-var target_date = new Date("03/01/2018"); // set the countdown date
+var target_date = new Date("03/03/2018"); // set the countdown date
 var days, hours, minutes, seconds; // variables for time units
 
 var countdown = document.getElementById("tiles"); // get tag element
