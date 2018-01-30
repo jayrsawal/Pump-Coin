@@ -1,8 +1,8 @@
 {
-  "title": "New Age",
-  "name": "startbootstrap-new-age",
-  "version": "4.0.0",
-  "description": "A one page app landing page HTML theme for Bootstrap.",
+  "title": "PumpCoin",
+  "name": "pump-coin",
+  "version": "1.0.0",
+  "description": "The World's First Official PumpCoin.",
   "main":"app.js",
   "keywords": [
     "css",
@@ -12,19 +12,14 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/new-age",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age/issues",
-    "email": "feedback@startbootstrap.com"
-  },
   "license": "MIT",
   "author": "Start Bootstrap",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "Victor Sawal (http://sawal.ca/)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-new-age.git"
+    "url": "https://github.com/jayrsawal/PumpCoin.git"
   },
   "dependencies": {
     "bootstrap": "4.0.0",
@@ -42,5 +37,8 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "3.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
   }
 }
