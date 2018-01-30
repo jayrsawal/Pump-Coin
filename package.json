@@ -3,7 +3,7 @@
   "name": "pump-coin",
   "version": "1.0.0",
   "description": "The World's First Official PumpCoin.",
-  "main":"app.js",
+  "main": "app.js",
   "keywords": [
     "css",
     "sass",
@@ -22,11 +22,14 @@
     "url": "https://github.com/jayrsawal/PumpCoin.git"
   },
   "dependencies": {
+    "aws-sdk": "^2.188.0",
     "bootstrap": "4.0.0",
+    "express": "^4.16.2",
     "font-awesome": "4.7.0",
     "jquery": "3.3.0",
     "jquery.easing": "^1.4.1",
     "popper.js": "^1.12.9",
+    "request": "^2.83.0",
     "simple-line-icons": "2.4.1"
   },
   "devDependencies": {
