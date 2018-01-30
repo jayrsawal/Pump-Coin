@@ -1,6 +1,6 @@
 const express   = require('express');
 const app       = express();
-const port      = 3000;
+const port      = 8081;
 
 const AWS = require('aws-sdk');
 AWS.config.region = process.env.REGION
