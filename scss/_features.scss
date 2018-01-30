@@ -1,0 +1,89 @@
+// Styling for the features section
+section.features {
+    .section-heading {
+        margin-bottom: 50px;
+        h2 {
+            margin-top: 0;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
+    .device-container,
+    .feature-item {
+        
+        margin: 0 auto;
+    }
+    .device-container {
+        margin-bottom: 100px;
+        @media(min-width: 992px) {
+            margin-bottom: 0;
+        }
+    }
+    .feature-item {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        h3 {
+            font-size: 30px;
+        }
+        i {
+            font-size: 80px;
+            display: block;
+            margin-bottom: 15px;
+            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}
+
+section#partner {
+    div.photos {
+        margin-top: 50px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+section#faq {
+    div.questions {
+        margin-top: 50px;
+        b {
+            margin-top: 25px;
+        }
+    }
+}
+
+div.contract-addr {
+    cursor: pointer;
+    span {
+        background: rgba(0,0,0,0.5);
+        padding: 10px;
+    }
+    #copy-btn {
+        padding: 10px;
+        border: 3px solid white;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(255,255,255,0.2);
+        }
+    }
+}
+
+div.token-number {
+    div {
+        padding: 25px;
+        background: rgba(0,0,0,0.2);
+        color: $gray-lighter;
+        font-size: 12px;
+        span {
+            font-size: 32px;
+            color: white;
+        }
+    }
+}
