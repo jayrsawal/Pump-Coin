@@ -57,7 +57,6 @@ section h2 {
 }
 
 #countdown {
-  width: 465px;
   height: 112px;
   text-align: center;
   margin: auto;
@@ -67,6 +66,7 @@ section h2 {
   bottom: 0;
   left: 0;
   right: 0;
+  white-space: nowrap;
 }
 
 #countdown #tiles {
@@ -75,8 +75,8 @@ section h2 {
 }
 
 #countdown #tiles > span {
-  width: 92px;
-  max-width: 92px;
+  width: 75px;
+  max-width: 75px;
   font: bold 48px 'Droid Sans', Arial, sans-serif;
   text-align: center;
   color: #111;
@@ -128,7 +128,7 @@ section h2 {
 }
 
 #countdown .labels li {
-  width: 102px;
+  width: 85px;
   font-weight: 900;
   color: black;
   text-align: center;
@@ -292,6 +292,7 @@ header.masthead .container a:hover {
 }
 
 header.masthead .header-content {
+  margin-top: 160px;
   max-width: 500px;
   margin-bottom: 100px;
   text-align: left;
@@ -443,6 +444,7 @@ div.contract-addr {
 div.contract-addr span {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
+  word-wrap: break-word;
 }
 
 div.contract-addr #copy-btn {
@@ -465,6 +467,10 @@ div.token-number div {
 div.token-number div span {
   font-size: 32px;
   color: white;
+}
+
+section {
+  overflow: hidden;
 }
 
 section.cta {
