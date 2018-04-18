@@ -194,7 +194,7 @@ function pad(n) {
 	return (n < 10 ? '0' : '') + n;
 }
 
-var contract_addr = "0xBA124DFASD24124XASDFF289812SASFGASDVA"
+var contract_addr = "0x1b10A75400d51A32F1290c34b8E7731a61f5e535"
 $("div.contract-addr span").html(contract_addr);
 
 $('#copy-btn').on("click", function(){

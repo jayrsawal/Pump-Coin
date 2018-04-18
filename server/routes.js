@@ -14,8 +14,7 @@ module.exports = app => {
 	});
 
 	app.get('/smart-contract', (req, res) => {
-		var url = 'https://api.etherscan.io/api?module=account&action=balance&address=' 
-			+ variables.smart_addr + '&tag=latest&apikey=' + variables.api_key;
+		var url = 'https://api.etherscan.io/api?module=account&action=balance&address=0xDF6cdF88A9c16c02c80B6b735EDa68207c833e55&tag=latest&apikey=TBMP972T2C6J3JT55A36786U79KUQQQ813'; 
 
 		request(url, function (error, response, body) {
 			if (!error && response.statusCode == 200) {
