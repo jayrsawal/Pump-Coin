@@ -1,6 +1,6 @@
 version: '2'
 services:
   pcoin:
-    build: .
+    build: ./
     ports:
       - "8082:8000"
