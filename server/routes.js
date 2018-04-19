@@ -1,6 +1,6 @@
 var request = require('request');
 var bodyParser = require('body-parser');
-var variables = require('./config.js');
+var variables = require('./config');
 
 module.exports = app => {
 	app.use( bodyParser.json() );       // to support JSON-encoded bodies
